@@ -8,7 +8,7 @@ http://miradontsoa.com
 <html class="no-js" lang="en">
 
 
-<!-- Mirrored from demo.highhay.com/simpleux/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 07:40:20 GMT -->
+<!-- Mirrored from demo.highhay.com/simpleux/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 07:40:39 GMT -->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -61,7 +61,6 @@ http://miradontsoa.com
   <link rel="stylesheet" href="css/main.css">
 
   <!-- add alt layout here -->
-  <link rel="stylesheet" href="css/style-default.css">
 
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
@@ -195,12 +194,26 @@ http://miradontsoa.com
   <!-- BEGIN OF page cover -->
   <div class="page-cover">
     <!-- Cover Background -->
-    <div class="cover-bg bg-img" data-image-src="img/bg-default1.jpg"></div>
+    <div class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
+
+    <!--BEGIN OF Static video bg - uncomment below to use Video as Background-->
+    <div id="container" class="video-container d-none d-sm-block">
+      <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="360">
+        <source src="vid/loop-bg.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!--END OF Static video bg-->
+
+    <!--BEGIN OF Youtube video bg  - uncomment/comment below to use/or not Youtube Video as Background-->
+    <!--<div class='youtube-container video-container show-for-medium-up'>
+				<iframe frameborder="0"
+				src="https://youtube.com/embed/wqeuYB7KMhY?autoplay=1&controls=0&showinfo=0&autohide=1">
+				</iframe>
+			</div>-->
+    <!--END OF Youtube video bg-->
 
     <!-- Transluscent mask as filter -->
-    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
-
-
+    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(29, 29, 29, 0.2)"></div>
   </div>
   <!--END OF page cover -->
 
@@ -208,8 +221,7 @@ http://miradontsoa.com
   <main class="page-main page-fullpage main-anim" id="mainpage">
 
     <!-- Begin of home section -->
-    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home"
-    data-section="home">
+    <div class="section section-home fullscreen-md fp-auto-height-responsive " data-section="home">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper">
         <!-- content -->
@@ -1219,5 +1231,5 @@ http://miradontsoa.com
 </body>
 
 
-<!-- Mirrored from demo.highhay.com/simpleux/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 07:40:20 GMT -->
+<!-- Mirrored from demo.highhay.com/simpleux/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 07:40:42 GMT -->
 </html>
